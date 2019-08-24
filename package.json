@@ -1,6 +1,6 @@
 {
   "name": "@banco-br/cnab_yaml",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "license": "MIT",
   "author": "Mario Mol <mariohmol@gmail.com>",
   "scripts": {

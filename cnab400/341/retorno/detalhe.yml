@@ -1,4 +1,13 @@
 # 341 = Itaú
+codigo_inscricao:
+  #IDENTIFICAÇÃO DO TIPO DE INSCRIÇÃO/EMPRESA
+  pos: [2, 3]
+  picture: '9(02)'
+
+numero_inscricao:
+  #NÚMERO DE INSCRIÇÃO DA EMPRESA (CPF/CNPJ)
+  pos: [4, 17]
+  picture: '9(14)'
 
 agencia:
   #Agência Mantenedora Da Conta
@@ -26,7 +35,22 @@ brancos01:
   pos: [30, 37]
   picture: 'X(08)'
 
-nosso_numero:
+uso_empresa:
+  #IDENTIFICAÇÃO DO TÍTULO NA EMPRESA
+  pos: [38, 62]
+  picture: 'X(25)'
+
+uso_empresa_ag:
+  #IDENTIFICAÇÃO DO TÍTULO NA EMPRESA => AG
+  pos: [53, 54]
+  picture: 'X(25)'
+
+uso_empresa_cc:
+  #IDENTIFICAÇÃO DO TÍTULO NA EMPRESA => CC
+  pos: [55, 59]
+  picture: 'X(25)'
+
+identificacao_titulo:
   #Identificação Do Título No Banco
   pos: [63, 70]
   picture: '9(08)'
@@ -61,6 +85,11 @@ carteira_cod:
   pos: [108, 108]
   picture: 'X(01)'
 
+cod_ocorrencia:
+  #Nota 17 - Código Da Ocorrencia
+  pos: [109, 110]
+  picture: '9(02)'
+
 nosso_numero_dup2:
   #Confirmação Do Número Do Título No Banco
   pos: [127, 134]
@@ -70,6 +99,31 @@ brancos04:
   #Complemento Do Registro
   pos: [135, 146]
   picture: 'X(12)'
+
+valor_titulo:
+  #Valor do titulo
+  pos: [153, 165]
+  picture: '9(11)V9(2)'
+
+valor_titulo_real:
+  #Valor do titulo reais
+  pos: [153, 163]
+  picture: '9(11)'
+
+valor_titulo_centavos:
+  #Valor do titulo centavos
+  pos: [164, 165]
+  picture: '9(2)'
+
+agencia_cobradora:
+  #Agencia Cobradora
+  pos: [169, 172]
+  picture: '9(04)'
+
+dac_agencia_cobradora:
+  #Agencia Cobradora
+  pos: [173, 173]
+  picture: '9(01)'
 
 brancos05:
   #Complemento Do Registro
